@@ -1,0 +1,138 @@
+*{margin: 0;
+    margin-right: 0px;
+}
+
+header,main,footer{width: 100%;}
+
+nav{width:100%;
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+    background-color:rgb(189, 167, 158) ;
+    margin: 0px;
+}
+
+nav a{text-decoration: none;
+    padding: 0.6rem;
+}
+
+nav a:hover{background-color: white;
+}
+
+
+
+.contact-modern {
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+}
+
+.contact-card {
+    display: flex;
+    gap: 40px;
+    max-width: 1000px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(15px);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+
+.contact-left {
+    flex: 1.2;
+}
+
+.contact-left h2 {
+    margin-bottom: 20px;
+    color: #1565c0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 14px;
+    border-radius: 12px;
+    border: 1px solid #90caf9;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.7);
+    transition: 0.3s;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    border-color: #1e88e5;
+    box-shadow: 0 0 0 3px rgba(30, 136, 229, 0.3);
+}
+
+
+.btn-send {
+    width: 100%;
+    padding: 15px;
+    background: #1e88e5;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-send:hover {
+    background: #0d47a1;
+    transform: translateY(-2px);
+}
+
+
+.contact-right {
+    flex: 0.8;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.contact-right h3 {
+    color: #0d47a1;
+    margin-bottom: 15px;
+}
+
+
+@media (max-width: 850px) {
+    .contact-card {
+        flex-direction: column;
+    }
+}
+
+
+
+footer{width: 100%;
+    background-color: rgba(159, 203, 233, 0.877);
+    padding: 2.5rem;
+    margin-top: 0%;
+}
+
+.footer-socials{display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.footer-socials a{color:white;
+}
+
+.footer-socials a:hover{color: blue;
+
+}

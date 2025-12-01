@@ -1,0 +1,63 @@
+*{margin:0px;
+}
+
+nav{width:100%;
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+    background-color:rgb(189, 167, 158) ;
+    margin: 0px;
+}
+
+nav a{text-decoration: none;
+    padding: 0.6rem;
+}
+
+nav a:hover{background-color: white;
+}
+
+main{background-color: rgb(9, 9, 31);
+    color: white;
+    padding: 5rem;
+    background-image: url('images/daniil-komov-pKiBD4eoOqE-unsplash.jpg');
+    background-size: contain;
+    }
+h2{text-align: center;
+    margin-bottom: 1rem;
+color:rgb(190, 190, 236);
+    font-size:1.7rem ;
+    font-weight: 900;}
+
+section{display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 4rem;}
+article{background-color: rgba(109, 69, 16, 0.507);
+    padding: 1.6rem;
+    border-radius:15% ;
+}
+span{color: rgb(196, 141, 22);
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+h3{text-align: center;
+    margin: 1rem;}
+
+footer{width: 100%;
+    background-color:rgb(189, 167, 158) ;
+    padding: 2.5rem;
+    margin: 0%;
+}
+
+.footer-socials{display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.footer-socials a{color:white;
+}
+
+.footer-socials a:hover{color: blue;
+}
